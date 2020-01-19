@@ -26,6 +26,8 @@ public class VipAction {
         map.put("valid",vipService.queryVipName(name));
         return map;
     }
+
+
     @RequestMapping("iscode")
     @login
     public ServletRequest iscode(String code,String shouji){
